@@ -9,8 +9,6 @@ public class ValidacoesStringTests
     [Fact]
     public void DeveRetornar6QuantidadeCaracteresDaPalavraMatrix()
     {
-
-
         // Arrange
         var texto = "Matrix";
         var resultadoEsperado = 6;
@@ -52,7 +50,6 @@ public class ValidacoesStringTests
 
         Assert.False(resultado);
     }
-
 
     [Fact]
     public void TextoDeveTerminarComAPalavraProcurado()
